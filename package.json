@@ -1,0 +1,15 @@
+{
+  "name": "nodepatterns",
+  "version": "1.0.0",
+  "description": "this is an example of differnt patterns that we can use in our daily development life.",
+  "main": "checkCPS.js",
+  "dependencies": {
+    "cli": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hiren Mistry",
+  "license": "ISC"
+}
