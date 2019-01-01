@@ -8,7 +8,7 @@ function readFiles(files, cb) {
 }
 // As per the patterns for the JS if we need to make callback enable function with errors 
 // then we should pass error object as first param and after that the response pattern
-readFiles(process.argv.slice(2), (err, data) => {
+readFiles(process.argv.slice(2), function(err, data) {
     if (err) return console.error(err);
     console.log(data);
-  })
+  });
